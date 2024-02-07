@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#section-1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border: 1px solid red;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    opacity: 0.4;
+    position: absolute;
+}
+#div-1{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    border: 1px solid blue
+}
+#nav{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    border: 1px solid green;
+    left: 40%;
+}
+#nav a{
+    font-size: 25px;
+    top: 100px;
+
+    width: 10px;
+    background-color: black;
+    text-decoration: none;
+    padding-inline: 60px;
+}
+#blog{
+    position: relative;
+    font-size: 20px;
+}
